@@ -1,0 +1,2 @@
+iverilog -o shift_sim shift_register.v shift_register_tb.v
+vvp shift_sim
